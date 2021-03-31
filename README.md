@@ -16,10 +16,12 @@ Possuir o Node instalado em seu equipamento
 [Node](https://nodejs.org/en/)
 
 
-## Adicionar as chaves pública e privada de acesso a API do Spotify no arquivo Credentials
+## Adicionar as chaves de acesso a API do Spotify no arquivo de enviroument
 
 
-[Credential](/src/services/Credentials.js)
+#env
+REACT_APP_API_KEY = 'PUBLIC_KEY'
+REACT_APP_API_PVKEY = 'PRIVATE_KEY'
 
 
 [Criar-Chaves-Spotify](https://developer.spotify.com/dashboard/login)
