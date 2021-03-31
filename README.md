@@ -20,7 +20,10 @@ Possuir o Node instalado em seu equipamento
 
 
 #env
+
+
 REACT_APP_API_KEY = 'PUBLIC_KEY'
+
 REACT_APP_API_PVKEY = 'PRIVATE_KEY'
 
 
