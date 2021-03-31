@@ -20,7 +20,7 @@ const Landing = () => {
                 animate="show"
             >
                 <h1>Hi-Music</h1>
-                <p>Encontre artistas, Albuns e músicas!</p>
+                <p>Encontre artistas, álbuns e músicas!</p>
                 <Link className="landind-button" to="/search"> Iniciar </Link>
             </MainContent>
         </>

@@ -52,13 +52,13 @@ export const Card = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     height: 350px;
     background-color: #ffffff99;
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
     box-sizing: border-box;
     text-align: center;
 
@@ -96,4 +96,9 @@ export const Card = styled.div`
             transform: scale(1.1);
         }
     }
+
+    @media (min-width: 730px){
+        margin: 1rem;
+    }
+
 `;

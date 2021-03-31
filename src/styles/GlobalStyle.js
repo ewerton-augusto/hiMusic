@@ -62,8 +62,4 @@ export default createGlobalStyle`
         --secondary-bg-color: #9a67ea;
     }
 
-    img{
-        //width: 100%;
-    }
-
 `

@@ -51,4 +51,20 @@ export const MainContent = styled.section`
             transform: none;
         }
     }
+
+    @media (max-width: 360px){
+        align-items: center;
+        text-align: center;
+        font-size: 1.125rem;
+
+        h1{
+            font-size: 2rem;
+            font-weight: 800;
+        }
+
+        .landind-button{
+            margin: 2rem 0;
+            width: 100%;
+        }
+    }
 `;
