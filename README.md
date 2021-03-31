@@ -9,18 +9,18 @@ Projeto desenvolvido em ReactJS consumindo a API do Spotify para pesquisar artis
 
 ## Primeiros passos
 
-
 Possuir o Node instalado em seu equipamento
-
 
 [Node](https://nodejs.org/en/)
 
+Instalar 
+
+npm install
 
 ## Adicionar as chaves de acesso a API do Spotify no arquivo de enviroument
 
 
-#env
-
+.env
 
 REACT_APP_API_KEY = 'PUBLIC_KEY'
 
